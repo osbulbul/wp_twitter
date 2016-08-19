@@ -19,3 +19,6 @@ print_r($WP_Twitter->tweets('twitter_username',(int how many tweets), (int how m
 ```
 
 Thats it! It will return an array of latest tweets.
+
+## How It Works
+We can't always get tweets from twitter api because of limitations. So we should cache it. This library cache tweets to the database. And it will refresh based on your choice.
